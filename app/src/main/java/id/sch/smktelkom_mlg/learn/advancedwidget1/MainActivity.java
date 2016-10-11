@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             String nama = etNama.getText().toString().trim();
             String umur = etUmur.getText().toString();
 
+
             if (umur.isEmpty())
                 umur = "0";
             if (!nama.isEmpty())
